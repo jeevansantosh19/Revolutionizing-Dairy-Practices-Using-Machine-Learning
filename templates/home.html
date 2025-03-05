@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name='viewport' content="width= device-width, inital-scale = 1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'home.css') }}?v = 2">
+    </head>
+    <body>
+        <h1>Revolutionizing Dairy Practices Using Machine Learning</h1>
+        <marquee diection = "left">Powered by Machine Learning</marquee>
+        <div class="container">
+            <h3>Fill the Form:</h3>
+            <div class="input-form">
+                <form action="/Predict" method="POST">
+                    <label for="location">Location: </label>
+                    <input type="text" placeholder = "Enter the Location" name="location" id="location" size="50" required />
+                    <br/>
+                    <br/>
+                    <label for="total_land_area">Total Land Area (in Acres): </label>
+                    <input type="number" placeholder = "Enter Land Area (in Acres)" step="0.01" name="total_land_area" id="total_land_area" min="0" required>
+                    <br/>
+                    <br/>
+                    <label for="no_of_cows">Number of Cows: </label>
+                    <input type="number" placeholder = "Enter the No. of Cows" name="no_of_cows", id="no_of_cows" required>
+                    <br/>
+                    <br/>
+                    <label for="farm_size">Farm Size: </label>
+                    <select id="farm_size" name="farm_size">
+                        <optgroup label="Choose the Farm Size">
+                            <option>-------------------</option>
+                            <option value="Large">Large</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Small">Small</option>
+                        </optgroup>
+                    </select>
+                    <br/>
+                    <br/>
+                    <label for="product_name">Product Name: </label>
+                    <select id="product_name" name="product_name">
+                        <optgroup label="Choose the Product Name">
+                            <option>------------------</option>
+                            <option value="Curd">Curd</option>
+                            <option value="Lassi">Lassi</option>
+                            <option value="Paneer">Paneer</option>
+                            <option value="Yogurt">Yogurt</option>
+                            <option value="Buttermilk">Buttermilk</option>
+                            <option value="Butter">Butter</option>
+                            <option value="Milk">Milk</option>
+                            <option value="Ice Cream">Ice Cream</option>
+                            <option value="Ghee">Ghee</option>
+                            <option value="Cheese">Cheese</option>
+                        </optgroup>
+                    </select>
+                    <br/>
+                    <br/>
+                    <label for="brand">Brand: </label>
+                    <select id="brand" name="brand">
+                        <optgroup label="Choose the Brand">
+                            <option>-----------------</option>
+                            <option value="Amul">Amul</option>
+                            <option value="Mother Dairy">Mother Dairy</option>
+                            <option value="Raj">Raj</option>
+                            <option value="Sudha">Sudha</option>
+                            <option value="Dodla Dairy">Dodla Dairy</option>
+                            <option value="Palle2Patnam">Palle2Patnam</option>
+                            <option value="Dynamix Dairies">Dynamix Dairies</option>
+                            <option value="Warana">Warana</option>
+                            <option value="Parag Milk Foods">Parag Milk Foods</option>
+                            <option value="Passion Cheese">Passion Cheese</option>
+                            <option value="Britannia Industries">Britannia Industries</option>
+                        </optgroup>
+                    </select>
+                    <br/>
+                    <br/>
+                    <label for="shelf_life">Shelf Life (in days): </label>
+                    <input type="number" placeholder = "Enter the Shelf Life" name="shelf_life", id="shelf_life" required>
+                    <br/>
+                    <br/>
+                    <label for="storage_condition">Storage Condition: </label>
+                    <select id="storage_condition" name="storage_condition">
+                        <optgroup label="Choose the Storage Condition">
+                            <option>-----------------</option>
+                            <option value="Refrigerated">Refrigerated</option>
+                            <option value="Frozen">Frozen</option>
+                            <option value="Ambient">Ambient</option>
+                            <option value="Polythene Packet">Polythene Packet</option>
+                            <option value="Tetra Pack">Tetra Pack</option>
+                        </optgroup>
+                    </select>
+                    <br/>
+                    <br/>
+                    <label for="sales_channel">Sales Channel: </label>
+                    <select id="sales_channel" name="sales_channel">
+                        <option>---------------------</option>
+                        <option value="Retail">Retail</option>
+                        <option value="Whole Sale">Whole Sale</option>
+                        <option value="Online">Online</option>
+                    </select>
+                    <br/>
+                    <br/>
+                    <input type = "submit" value = "Predict">
+                    <br/>
+                </form>
+                <br/>
+                <br/>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <address>
+            <p>Copyrights &copy</p>
+            <p>Designed by Charugundla Jeevan Santosh</p>
+            <p>TechU By Abilio IT Solutions, Office No.103A,</p>
+            <p>1<sup>st</sup> Floor, Jain Sadhguru Image Park,</p>
+            <p>Image Road, Beside Rameshwaram Cafe, 100 Feet Road,</p>
+            <p>Madhapur, Hyderabad 500 081</p>
+        </address>
+    </body>
+</html>
