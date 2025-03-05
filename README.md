@@ -11,14 +11,21 @@ Gathered a dataset relevant to dairy operations for analysis and model building.
 
 **2. Data Preprocessing**
 Encoded categorical columns to convert them into numerical format.
+
 Standardized numerical columns for consistent scaling.
 
 **3. Model Development**
+
 Implemented classification algorithms:
+
 K-Nearest Neighbors (KNN)
+
 Decision Tree Classifier (DTC)
+
 Random Forest Classifier (RFC)
+
 Logistic Regression
+
 Support Vector Machine (SVM)
 
 **4. Model Evaluation**
