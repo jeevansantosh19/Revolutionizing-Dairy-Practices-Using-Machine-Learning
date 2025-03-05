@@ -5,8 +5,7 @@
 This project focuses on leveraging machine learning to optimize dairy operations by applying classification algorithms such as:  
 - **K-Nearest Neighbors (KNN)**  
 - **Decision Tree Classifier (DTC)**  
-- **Random Forest Classifier (RFC)**  
-- **Logistic Regression**  
+- **Random Forest Classifier (RFC)**   
 - **Support Vector Machine (SVM)**  
 
 It evaluates model performance through:  
@@ -32,8 +31,7 @@ No IoT devices are used, relying purely on data-driven approaches.
 Implemented the following classification algorithms:  
 - **K-Nearest Neighbors (KNN)**  
 - **Decision Tree Classifier (DTC)**  
-- **Random Forest Classifier (RFC)**  
-- **Logistic Regression**  
+- **Random Forest Classifier (RFC)**   
 - **Support Vector Machine (SVM)**  
 
 ### 4. **Model Evaluation**  
