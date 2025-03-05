@@ -27,5 +27,7 @@ Evaluated models using training scores, testing scores, error rates, and accurac
 **Features**
 
 Classification-based analysis for optimizing dairy operations.
+
 Performance metrics include accuracy, error rates, and generalization capabilities.
+
 No reliance on IoT devices, focusing solely on machine learning techniques.
