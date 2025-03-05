@@ -4,6 +4,7 @@
 This project focuses on leveraging machine learning to optimize dairy operations by applying classification algorithms like KNN, Decision Tree Classifier, Random Forest Classifier, Logistic Regression, and SVM. 
 It evaluates model performance through training scores, testing scores, error rates, and the accuracy of classifiers. No IoT devices are used, relying purely on data-driven approaches.
 
+
 **Workflow**
 
 **1. Data Collection**
@@ -30,6 +31,7 @@ Support Vector Machine (SVM)
 
 **4. Model Evaluation**
 Evaluated models using training scores, testing scores, error rates, and accuracy.
+
 
 **Features**
 
