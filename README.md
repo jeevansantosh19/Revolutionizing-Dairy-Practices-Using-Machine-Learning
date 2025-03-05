@@ -5,7 +5,7 @@ This project focuses on leveraging machine learning to optimize dairy operations
 It evaluates model performance through training scores, testing scores, error rates, and the accuracy of classifiers. No IoT devices are used, relying purely on data-driven approaches.
 
 **Workflow**
-1. Data Collection
+**1. Data Collection**
 Gathered a dataset relevant to dairy operations for analysis and model building.
 
 **2. Data Preprocessing**
