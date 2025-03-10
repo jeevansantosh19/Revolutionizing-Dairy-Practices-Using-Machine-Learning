@@ -415,7 +415,7 @@ confusion_matrix_rfc_img = encode_plot_to_base64()
 plt.close()
 
 # Building the Support Vector Machine Classifier
-svm = SVC(C = 1.0, kernel = 'linear', gamma = 'scale', random_state = 42)
+svm = SVC(C = 1.0, kernel = 'rbf', gamma = 'scale', random_state = 42)
 svm
 
 # Training the Model
@@ -431,7 +431,7 @@ train_scores_svm = []
 test_scores_svm = []
 
 for i in range(1, 21):
-    svm = SVC(C = i, kernel = 'linear', gamma = 'scale', random_state = 42)
+    svm = SVC(C = i, kernel = 'rbf', gamma = 'scale', random_state = 42)
     svm.fit(train_data, train_target)
     train_scores_svm.append(svm.score(train_data, train_target))
     test_scores_svm.append(svm.score(test_data, test_target))
@@ -529,8 +529,8 @@ def predict():
     product_name = request.form.get('product_name')
     brand = request.form.get('brand')
     shelf_life = request.form.get('shelf_life')
-    storage_condition = request.form.get('storage_condition')
     sales_channel = request.form.get('sales_channel')
+    storage_condition = request.form.get('storage_condition')
 
     # User Input
     user_input = {
@@ -541,8 +541,8 @@ def predict():
         'Product Name: ':product_name,
         'Brand: ':brand,
         'Shelf Life (in days): ':shelf_life,
-        'Storage Condition: ':storage_condition,
-        'Sales Channel: ':sales_channel
+        'Sales Channel: ':sales_channel,
+        'Storage Condition: ':storage_condition
     }
     
     return render_template('results.html', user_input = user_input)
