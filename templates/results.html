@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Results</h1>
+
+        <!-- Table for Model and Prediction -->
+        <h2>Model Predictions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for model, prediction in predictions.items() %}
+                <tr>
+                    <td>{{ model }}</td>
+                    <td>{{ prediction }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Table for Model and Accuracy -->
+        <h2>Model Accuracies</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for model, accuracy in accuracies.items() %}
+                <tr>
+                    <td>{{ model }}</td>
+                    <td>{{ accuracy }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <a href="/" class="btn">Try Again</a>
+    </div>
+</body>
+</html>
