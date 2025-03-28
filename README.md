@@ -91,13 +91,13 @@ This project leverages machine learning to optimize dairy farming practices by p
 ## Screenshots of the Application
 
 ### Application Form
-(https://github.com/user-attachments/assets/e6c6756b-48ec-4ad8-8d98-8047a6541dfe)
+![Application Form](https://github.com/user-attachments/assets/e6c6756b-48ec-4ad8-8d98-8047a6541dfe "Application Form Screenshot")
 
 ### Prediction Form Filled
-(https://github.com/user-attachments/assets/722fea97-ed89-4147-8a7c-4cd29ae6f6a7)
+![Prediction Form Filled](https://github.com/user-attachments/assets/722fea97-ed89-4147-8a7c-4cd29ae6f6a7 "Prediction Form Screenshot")
 
 ### Prediction Results
-(https://github.com/user-attachments/assets/b62dfa6a-1c03-4c2c-9bb8-07d6f73e61e7)
+![Prediction Results](https://github.com/user-attachments/assets/b62dfa6a-1c03-4c2c-9bb8-07d6f73e61e7 "Prediction Results Screenshot")
 
 ---
 
