@@ -14,7 +14,7 @@ This project leverages machine learning to optimize dairy farming practices by p
 - Deployment-ready structure for real-world use.
 
 ### Project Stack
-1. **Frontend:** HTML, CSS, Bootstrap
+1. **Frontend:** HTML and CSS
 2. **Backend:** Flask
 3. **Machine Learning Models:**
    - K-Nearest Neighbors (KNN)
