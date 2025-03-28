@@ -105,3 +105,7 @@ This project leverages machine learning to optimize dairy farming practices by p
 - Integration with IoT devices for real-time data.
 - Cloud deployment for wider accessibility.
 - Additional features like milk quality analysis and pricing predictions.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
