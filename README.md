@@ -90,15 +90,17 @@ This project leverages machine learning to optimize dairy farming practices by p
 
 ## Screenshots of the Application
 
-### 1. **Homepage**
-   - Displays the user input form with fields like location, total land area, and shelf life.
+### Application Form
+![Application Form](![Screenshot_27-3-2025_124122_127 0 0 1](https://github.com/user-attachments/assets/e6c6756b-48ec-4ad8-8d98-8047a6541dfe)
+ "Application Form Screenshot")
 
-### 2. **Results Page**
-   - Displays predictions from each model and their respective accuracies.
-   - Highlights the chosen packaging type based on the Random Forest Classifier.
+### Prediction Form Filled
+![Prediction Form Filled](![Screenshot_27-3-2025_124225_127 0 0 1](https://github.com/user-attachments/assets/722fea97-ed89-4147-8a7c-4cd29ae6f6a7)
+ "Prediction Form Screenshot")
 
-### 3. **Model Comparison**
-   - Side-by-side comparison of KNN, Decision Tree, and Random Forest results.
+### Prediction Results
+![Prediction Results](![Screenshot_27-3-2025_124242_127 0 0 1](https://github.com/user-attachments/assets/b62dfa6a-1c03-4c2c-9bb8-07d6f73e61e7)
+ "Prediction Results Screenshot")
 
 ---
 
